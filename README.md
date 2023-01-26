@@ -23,8 +23,8 @@ Predict the CO2 emission of a car where the weight is 2300kg, and the volume is 
 ## Program:
 ```python
 # Program for Multivariate linear regression using the least squares method.
-# Developed by:Yogeshvar.M
-# RegisterNumber:22003358 
+# Developed by:Tejaswini.G
+# RegisterNumber:22004187
 import pandas as pd
 from sklearn import linear_model
 data=pd.read_csv("cars.csv")
@@ -36,10 +36,6 @@ print('coefficient: ',regr.coef_)
 print('Intercept: ',regr.intercept_)
 predictCO2=regr.predict([[3300,1300]])
 print('Predicted CO2 fot the corresponding weight and volume',predictCO2)
-
-
-
-
 
 ```
 ## Output:
